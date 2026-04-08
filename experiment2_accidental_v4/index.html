@@ -245,13 +245,13 @@
                 timeline.push(question_trial);
 
             } else {
-                // simple: Yes/No image buttons
+                // simple: Distal/Proximal image buttons
                 const question_trial = {
                     type: jsPsychHtmlButtonResponse,
                     stimulus: `<img src="${trials["scenarios"][scenario]["questions"][question]}" width="70%"></img>`,
                     choices: [
-                        buildOptionChoice("images/responses/yes.png"),
-                        buildOptionChoice("images/responses/no.png")
+                        buildOptionChoice(`images/responses/${scenario}_distal.png`),
+                        buildOptionChoice(`images/responses/${scenario}_proximal.png`)
                     ],
                     prompt: "<p>Please choose one option.</p>",
                     data: {
@@ -260,7 +260,7 @@
                         "question": question,
                     },
                     on_finish: function(data) {
-                        data.selected_option = data.response === 0 ? "yes" : "no";
+                        data.selected_option = data.response === 0 ? "distal" : "proximal";
                     }
                 };
                 timeline.push(question_trial);
