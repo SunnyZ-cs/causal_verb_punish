@@ -133,16 +133,16 @@
     timeline.push(instruction);
 
 
+    // Randomize cause/simple order once, shared across both scenarios
+    const cause_simple_order = Math.random() < 0.5 ? ["cause", "simple"] : ["simple", "cause"];
+    // fault always before punish
+    const question_order = [...cause_simple_order, "fault", "punish"];
+
+    console.log("Question order (shared):", question_order);
+
     // Scenarios (bike and mirror in randomized order)
     for (const scenario of scenario_list) {
         console.log(`Adding scenario: ${scenario}`);
-
-        // Generate question order for this scenario
-        // (cause, simple) pair first, (fault, punish) pair second
-        // Within each pair, order is randomized
-        const cause_simple_order = Math.random() < 0.5 ? ["cause", "simple"] : ["simple", "cause"];
-        const fault_punish_order = Math.random() < 0.5 ? ["fault", "punish"] : ["punish", "fault"];
-        const question_order = [...cause_simple_order, ...fault_punish_order];
 
         console.log(`Question order for ${scenario}:`, question_order);
 
