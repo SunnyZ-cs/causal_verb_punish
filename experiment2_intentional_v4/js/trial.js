@@ -5,7 +5,7 @@ const trials = {
             "story": [
                 "images/bike/punish.001.png",
                 "images/bike/punish.002.png",
-                "images/bike/punish.003.png",
+                "images/bike/punish.003_new.png",
                 "images/bike/punish.004.png",
                 "images/bike/punish.005.png",
                 "images/bike/punish.006.png",
@@ -30,7 +30,7 @@ const trials = {
             "story": [
                 "images/mirror/punish.016.png",
                 "images/mirror/punish.017.png",
-                "images/mirror/punish.018.png",
+                "images/mirror/punish.018_new.png",
                 "images/mirror/punish.019.png",
                 "images/mirror/punish.020.png",
                 "images/mirror/punish.021.png",
