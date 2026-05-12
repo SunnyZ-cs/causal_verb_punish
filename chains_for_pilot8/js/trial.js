@@ -42,14 +42,14 @@ const trials = {
                 "images/mirror/14.png"
             ],
             "questions": {
-                "cause_bobby": "images/mirror/q_cause_bobby.png",
-                "cause_sophia": "images/mirror/q_cause_sophia.png",
-                "simple_bobby": "images/mirror/q_simple_bobby.png",
-                "simple_sophia": "images/mirror/q_simple_sophia.png",
-                "fault_bobby": "images/mirror/q_fault_bobby.png",
-                "fault_sophia": "images/mirror/q_fault_sophia.png",
-                "punish_bobby": "images/mirror/q_punish_bobby.png",
-                "punish_sophia": "images/mirror/q_punish_sophia.png"
+                "cause_bobby": "images/mirror/cause_bobby.png",
+                "cause_sophia": "images/mirror/cause_sophia.png",
+                "simple_bobby": "images/mirror/crack_bobby.png",
+                "simple_sophia": "images/mirror/crack_sophia.png",
+                "fault_bobby": "images/mirror/fault_bobby.png",
+                "fault_sophia": "images/mirror/fault_sophia.png",
+                "punish_bobby": "images/mirror/punish_bobby.png",
+                "punish_sophia": "images/mirror/punish_sophia.png"
             }
         }
     }
