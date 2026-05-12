@@ -26,16 +26,20 @@ const trials = {
         },
         "mirror": {
             "story": [
-                "images/mirror/punish.016.png",
-                "images/mirror/punish.017.png",
-                "images/mirror/punish.018_new.png",
-                "images/mirror/punish.019.png",
-                "images/mirror/punish.020.png",
-                "images/mirror/punish.021.png",
-                "images/mirror/punish.022.png",
-                "images/mirror/punish.023.png",
-                "images/mirror/punish.024.png",
-                "images/mirror/punish.025.png"
+                "images/mirror/1.png",
+                "images/mirror/2.png",
+                "images/mirror/3.png",
+                "images/mirror/4.png",
+                "images/mirror/5.png",
+                "images/mirror/6.png",
+                "images/mirror/7.png",
+                "images/mirror/8.png",
+                "images/mirror/9.png",
+                "images/mirror/10.png",
+                "images/mirror/11.png",
+                "images/mirror/12.png",
+                "images/mirror/13.png",
+                "images/mirror/14.png"
             ],
             "questions": {
                 "cause_bobby": "images/mirror/q_cause_bobby.png",
