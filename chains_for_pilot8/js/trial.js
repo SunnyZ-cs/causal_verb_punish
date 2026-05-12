@@ -5,9 +5,7 @@ const trials = {
             "story": [
                 "images/bike/punish.001.png",
                 "images/bike/punish.002.png",
-                "images/bike/punish.003_new.png",
-                "images/bike/punish.004.png",
-                "images/bike/punish.005.png",
+                "images/bike/punish.004_new.png",
                 "images/bike/punish.006.png",
                 "images/bike/punish.007.png",
                 "images/bike/punish.008.png",
